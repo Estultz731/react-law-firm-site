@@ -29,6 +29,28 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 col-lg-4">
+              <div className="card">
+                <div class="top"><img className="picture" src="./images/courthouse.jpg" /></div>
+                <div class="bottom">Duis pulvinar ornare nisi.</div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-lg-4">
+              <div className="card">
+                <div className="top"><img className="picture" src="./images/oldbooks.jpg" /></div>
+                <div class="bottom">Aenean dapibus, ante ac gravida ultricies, lacus massa viverra felis, ac faucibus nisl nisl quis tortor.</div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-lg-4">
+              <div className="card">
+                <div className="top"><img className="picture" src="./images/writing.jpg" /></div>
+                <div className="bottom">Curabitur finibus rutrum facilisis.</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </>
     );
   }
