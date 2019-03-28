@@ -33,13 +33,15 @@ nav {
   color: white;
 }
 
-.hero-image {
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
   height: auto;
   width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
 .hero-text {
@@ -65,8 +67,4 @@ nav {
   box-shadow: 0 5px 20px 0px #000;
   margin-bottom: 30px;
   text-align: center;
-}
-
-.hero {
-  border: 5px solid purple;
 }
