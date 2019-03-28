@@ -15,7 +15,7 @@ class App extends Component {
       <>
         <Nav />
         <div className="container">
-          <div className="row">
+          <div className="row hero">
             <div className="col-sm-12 col-lg-4">
               <div className="hero-image">
                 <img className="hero" src="./images/heroimage.jpg" />
@@ -33,14 +33,14 @@ class App extends Component {
           <div className="row">
             <div className="col-sm-12 col-lg-4">
               <div className="card">
-                <div class="top"><img className="picture" src="./images/courthouse.jpg" /></div>
-                <div class="bottom">Duis pulvinar ornare nisi.</div>
+                <div className="top"><img className="picture" src="./images/courthouse.jpg" /></div>
+                <div className="bottom">Duis pulvinar ornare nisi.</div>
               </div>
             </div>
             <div className="col-sm-12 col-lg-4">
               <div className="card">
                 <div className="top"><img className="picture" src="./images/oldbooks.jpg" /></div>
-                <div class="bottom">Aenean dapibus, ante ac gravida ultricies, lacus massa viverra felis, ac faucibus nisl nisl quis tortor.</div>
+                <div className="bottom">Aenean dapibus, ante ac gravida ultricies, lacus massa viverra felis, ac faucibus nisl nisl quis tortor.</div>
               </div>
             </div>
             <div className="col-sm-12 col-lg-4">
